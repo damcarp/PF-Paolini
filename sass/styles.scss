@@ -1,0 +1,16 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "navbar" as *;
+@use "cards" as *;
+@use "footer" as *;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

@@ -1,0 +1,9 @@
+@use "variables" as *;
+
+@mixin transition($property: all, $duration: $transition-duration) {
+  transition: $property $duration ease;
+}
+
+@mixin box-shadow($shadow: $card-shadow-color) {
+  box-shadow: 0 4px 8px $shadow;
+}

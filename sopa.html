@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descripción para SEO -->
+    <meta name="description" content="Sopa de verduras, ideal para los días fríos, llena de nutrientes.">
+    <!-- Palabras clave para SEO -->
+    <meta name="keywords" content="sopa, verduras, receta saludable, comida casera">
+    <!-- Autor de la página -->
+    <meta name="author" content="Damiano">
+    <!-- Instrucciones para motores de búsqueda -->
+    <meta name="robots" content="index, follow">
+    <!-- Favicon -->
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <!-- Estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Este archivo debe compilar los SCSS -->
+    <title>Sopa de Verduras - Receta Nutritiva</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm" aria-label="Main navigation">
+        <div class="container">
+            <!-- Logo del sitio -->
+            <a class="navbar-brand" href="index.html" aria-label="Ir a la página principal">Recetario</a>
+            <!-- Botón para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" aria-label="Ir a la página de inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recetas.html" aria-label="Ir a la página de recetas">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" aria-label="Ir a la página de contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="bg-primary text-white text-center py-3" role="banner">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Sopa de Verduras</h1>
+            <p class="lead mb-4">Ideal para los días fríos, llena de nutrientes.</p>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container my-5">
+        <section class="row">
+            <!-- Sección de ingredientes e instrucciones -->
+            <div class="col-md-6">
+                <h2>Ingredientes</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">1 zanahoria, picada en cubos pequeños</li>
+                    <li class="list-group-item">1 papa, picada en cubos pequeños</li>
+                    <li class="list-group-item">1/2 cebolla, picada finamente</li>
+                    <li class="list-group-item">2 dientes de ajo, picados</li>
+                    <li class="list-group-item">1 calabacín, picado en cubos pequeños</li>
+                    <li class="list-group-item">2 ramas de apio, picadas</li>
+                    <li class="list-group-item">1 litro de caldo de verduras (o agua con cubo de caldo)</li>
+                    <li class="list-group-item">Aceite de oliva al gusto</li>
+                    <li class="list-group-item">Sal y pimienta al gusto</li>
+                    <li class="list-group-item">Perejil fresco para decorar (opcional)</li>
+                </ul>
+
+                <h2 class="mt-4">Instrucciones</h2>
+                <ol>
+                    <li>En una olla grande, calienta un poco de aceite de oliva a fuego medio.</li>
+                    <li>Agrega la cebolla y el ajo, y cocina por unos 3-4 minutos hasta que estén dorados.</li>
+                    <li>Añade la zanahoria, la papa, el calabacín y el apio. Cocina durante 5 minutos, removiendo de vez en cuando.</li>
+                    <li>Vierte el caldo de verduras en la olla, y lleva a ebullición. Una vez que hierva, reduce el fuego y deja cocinar a fuego lento durante 20-25 minutos o hasta que las verduras estén tiernas.</li>
+                    <li>Prueba la sopa y ajusta la sal y pimienta al gusto.</li>
+                    <li>Sirve caliente, decorada con un poco de perejil fresco si lo deseas.</li>
+                </ol>
+            </div>
+            <!-- Imagen -->
+            <div class="col-md-6">
+                <img src="imagenes/sopa_verduras.jpg" class="img-fluid rounded shadow" alt="Sopa de verduras" aria-label="Imagen de sopa de verduras">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Recetas Caseras | Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
